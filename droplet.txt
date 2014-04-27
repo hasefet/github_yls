@@ -1,3 +1,9 @@
 hostname: hasefet
 environment: /opt/yls_env
 postgres database name: pratish
+user name: pratish_login
+project name: yls_project
+95.85.33.76:8010
+gunicorn command
+/opt/yls_env/bin/gunicorn -c /opt/yls_env/gunicorn_config.py yls_project.wsgi
+
