@@ -1,0 +1,3 @@
+hostname: hasefet
+environment: /opt/yls_env
+postgres database name: pratish
